@@ -28,6 +28,7 @@ let p5 = +prompt("Pergunta número 5: O vampiro conseguiu liberar seu reino dos 
 
 let total = 0;
 
+
 if(p1 == 1){
     total++;
 }
