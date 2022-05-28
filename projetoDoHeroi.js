@@ -1,25 +1,30 @@
 const prompt = require("prompt-sync")();
 
-console.log("Vampiro Edward");
-console.log("Começou seu dia indo atrás de recursos para contruir seu castelo adqueriu diversas pedras e madeiras para construilo de forma gigante e belo, após contruir um castelo foi atrás de todos os monstrons que assombravam as redondezas de seu castelo, e então subiu de nível e foi atrás de monstros mais fortes que assombravam o reino inteiro, para liberar seu reino dos monstros." );
+console.log("Essa é a história do Vampiro Edward");
+console.log("Baseada em fatos verídicos");
+console.log("Pressione enter para continuar");
+prompt('');
+
+console.log(`Começou seu dia indo atrás de recursos para contruir seu castelo,
+adqueriu diversas pedras e madeiras para construir de forma grandiosa, 
+após contruir seu castelo foi atrás de monstros que assombravam as redondezas de seu castelo, 
+e então subiu de nível e foi atrás de monstros mais fortes que assombravam o reino inteiro, para liberar seu reino dos monstros.`)
+console.log('');
+console.log("Pressione enter para prosseguir para as perguntas");
+prompt('');
+
 console.log("Farei 5 perguntas para saber se o Vampiro Edward, obteve sucesso na sua jornada.");
 console.log("As respostas só valem 1 para Sim e 2 para Não.");
 
+let p1 = +prompt ("Pergunta número 1: O vampiro conseguiu contruir o seu castelo?");
 
-let p1 = +prompt ("Pergunta número 1: O vampiro conseguiu contruir o seu castelo?")
+let p2 = +prompt("Pergunta número 2: O vampiro construiu um castelo pequeno?");
 
-let p2 = +prompt("Pergunta número 2: O vampiro construiu um castelo pequeno?")
+let p3 = +prompt("Pergunta número 3: O vampiro conseguiu matar os monstros em volta de seu castelo?");
 
-let p3 = +prompt("Pergunta número 3: O vampiro conseguiu matar os monstros em volta de seu castelo?")
+let p4 = +prompt("Pergunta número 4: Quando o vampiro subiu de nível, ele ficou mais bonito?");
 
-let p4 = +prompt("Pergunta número 4: Quando o vampiro subiu de nível, ele ficou mais bonito?")
-
-let p5 = +prompt("Pergunta número 5: O vampiro conseguiu liberar seu reino das assombrações?")
-
-
-console.log(
-    `Suas respostas foram: Pergunta 1 = ${p1}, Pergunta 2 = ${p2}, Pergunta 3 = ${p3}, Pergunta 4 = ${p4} e Pergunta 5 = ${p5}`
-  );
+let p5 = +prompt("Pergunta número 5: O vampiro conseguiu liberar seu reino dos monstros?");
 
 let total = 0;
 
